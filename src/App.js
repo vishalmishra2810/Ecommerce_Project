@@ -37,9 +37,17 @@ function App() {
     // BEM
     <BrowserRouter>
       <div className="app">
-        <Header />
+        {/* <Header /> */}
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <Home />
+              </>
+            }
+          ></Route>
           <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="/payment" element={<Payment />}></Route>
           <Route path="/login" element={<Login />}></Route>

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Product.css";
+import "./Product2.css";
 import { useStateValue } from "./StateProvider";
 
-function Product({ id, title, image, price, rating }) {
+function Product2({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToInterested = () => {
@@ -11,29 +11,16 @@ function Product({ id, title, image, price, rating }) {
     dispatch({
       type: "ADD_TO_INTERESTED",
       item: {
-        id: id,
         title: title,
         image: image,
-        price: price,
         rating: rating,
       },
     });
   };
   return (
-    <div className="product">
-      <div className="product__info">
+    <div className="product2">
+      <div className="product2__info">
         <p>{title}</p>
-        <p className="product__price">
-          <small>$</small>
-          <strong>{price}</strong>
-        </p>
-        <div className="product__rating">
-          {Array(rating)
-            .fill()
-            .map((_, i) => (
-              <p>⭐</p>
-            ))}
-        </div>
       </div>
       <img src={image} alt="" />
       <button onClick={addToInterested}>Add to Interested</button>
@@ -41,4 +28,4 @@ function Product({ id, title, image, price, rating }) {
   );
 }
 
-export default Product;
+export default Product2;

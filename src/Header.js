@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import InterestsIcon from "@material-ui/icons/Favorite";
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
@@ -42,13 +42,13 @@ function Header() {
           <span className="header__optionLineTwo">& Orders</span>
         </div>
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
+          <span className="header__optionLineOne">Helpful</span>
+          <span className="header__optionLineTwo">Blogs</span>
         </div>
 
         <Link to="/checkout">
           <div className="header__optionBasket">
-            <ShoppingBasketIcon />
+            <InterestsIcon />
             <span
               className="header__optionLineTwo
             header__basketCount"

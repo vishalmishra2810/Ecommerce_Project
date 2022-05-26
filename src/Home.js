@@ -1,30 +1,30 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import banner from "./images/home_banner.jpg";
+import java from "./images/java-book.png";
+import CTCIB from "./images/ctci.png";
+import Visualization from "./Visualization";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
+        <img className="home__image" src={banner} alt="" />
 
         <div className="home__row">
           <Product
             id="123211341"
             title="the lean startup"
             price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            image={java}
             rating={4}
           />
           <Product
             id="123211341"
             title="the lean startup"
             price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            image={CTCIB}
             rating={4}
           />
           <Product
@@ -43,10 +43,12 @@ function Home() {
           />
         </div>
 
+        <Visualization />
+
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={199.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
@@ -60,7 +62,7 @@ function Home() {
           />
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={199.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
@@ -84,35 +86,35 @@ function Home() {
         <div className="home__row">
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={1094.98}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={1094.98}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={1094.98}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={1094.98}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            title="Samsung 49' Curved LED Gaming Monitor"
             price={1094.98}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
