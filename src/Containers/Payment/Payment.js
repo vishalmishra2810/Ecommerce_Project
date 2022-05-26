@@ -1,7 +1,7 @@
 import React from "react";
-import CheckoutProduct from "./CheckoutProduct";
+import CheckoutProduct from "../CheckoutProduct/CheckoutProduct";
 import "./Payment.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../../StateProvider";
 import { Link } from "react-router-dom";
 
 function Payment() {

@@ -1,0 +1,49 @@
+.Footer{
+    padding:30px;
+    display: block;
+    position: relative;
+    background-color: #242424;
+    height:auto;
+    font-size:80%;
+    width:100%;
+    letter-spacing: 1px;
+}
+.Footer img{
+    height:25px;
+    width:auto;
+}
+.Footer a,.Footer a:link,.Footer a:visited{
+    float: left;
+    text-decoration: none;
+    color: #727171;
+}
+.Footer a:hover,.Footer a:active{
+    color:#fff;
+}
+.storage{
+    float:left;
+}
+.storage a{
+    padding:0 10px;
+}
+.storage2{
+    float:right;
+}
+.storage2  img{
+    margin:0 10px;
+}
+.Footer-text{
+    margin-top:30px;
+    color:#727171;;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 165%;
+}
+.Footer-text:hover{
+    color:#fff;
+}
+@media screen and (min-width:600px){
+    .Footer{
+        height:35vh;
+    }
+}

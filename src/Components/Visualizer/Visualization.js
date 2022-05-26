@@ -1,7 +1,7 @@
 import React from "react";
-import sorting from "./images/sorting.png";
-import pathfinding from "./images/path visual.jpg";
-import Product2 from "./Product2";
+import sorting from "../../images/sorting.png";
+import pathfinding from "../../images/path visual.jpg";
+import Product2 from "../../Containers/Product2/Product2";
 import "./Visualization.css";
 
 const Visualization = () => {
