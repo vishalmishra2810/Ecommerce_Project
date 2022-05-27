@@ -18,7 +18,7 @@ function Blog() {
             {" "}
             <Product3 title="Data Structure" image={ds} />
           </Link>
-          <Link to="/Algorithms_Section">
+          <Link to="/Algorithm_Section">
             {" "}
             <Product3 title="Algorithms" image={algorithm} />{" "}
           </Link>
@@ -26,7 +26,7 @@ function Blog() {
             {" "}
             <Product3 title="Interview Preperation" image={Interview} />{" "}
           </Link>
-          <Link to="/Cs_Subjects_Section">
+          <Link to="/Cs_Section">
             {" "}
             <Product3 title="Core Cs Subjects" image={DBMS} />{" "}
           </Link>

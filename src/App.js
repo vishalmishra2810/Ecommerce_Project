@@ -5,6 +5,11 @@ import Home from "./Home";
 import Checkout from "./Containers/Checkout/Checkout";
 import Payment from "./Containers/Payment/Payment";
 import DsSection from "./Components/Blogs/DataStructure/DsSection";
+import Algorithm_Section from "./Components/Blogs/Algorithm/Algorithm_Section";
+import Aptitude_Section from "./Components/Blogs/Aptitude/Aptitude_Section";
+import Cs_Section from "./Components/Blogs/CsSubjects/Cs_Section";
+import Interview_Section from "./Components/Blogs/Interview/Interview_Section";
+import Helpful_Topics from "./Components/Helpful_Topics/Helpful_Topics";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Containers/Login/Login";
 import { auth } from "./firebase";
@@ -49,6 +54,20 @@ function App() {
               </>
             }
           ></Route>
+          <Route
+            path="/Algorithm_Section"
+            element={<Algorithm_Section />}
+          ></Route>
+          <Route
+            path="/Aptitude_Section"
+            element={<Aptitude_Section />}
+          ></Route>
+          <Route path="/Cs_Section" element={<Cs_Section />}></Route>
+          <Route
+            path="/Interview_Section"
+            element={<Interview_Section />}
+          ></Route>
+          <Route path="/Helpful_Topics" element={<Helpful_Topics />}></Route>
           <Route path="/DsSection" element={<DsSection />}></Route>
           <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="/payment" element={<Payment />}></Route>

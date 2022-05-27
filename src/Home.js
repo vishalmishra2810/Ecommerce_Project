@@ -4,7 +4,7 @@ import banner from "./images/home_banner.jpg";
 import BooksRecommendation from "./Components/BooksRecommendation/Books";
 import Visualization from "./Components/Visualizer/Visualization";
 import Motivation from "./Components/Motivation/Motivation";
-import Footer from "./Components/Footers/Footer";
+// import Footer from "./Components/Footers/Footer";
 import Blog from "./Components/Blogs/Blog";
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
         <Motivation />
         <Blog />
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
