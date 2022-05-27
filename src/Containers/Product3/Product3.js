@@ -1,7 +1,8 @@
 import React from "react";
 import "./Product3.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function Product3({ title, image }) {
+function Product3({ title, image, button }) {
   return (
     <div className="product3">
       <div className="product3__info">
@@ -9,17 +10,12 @@ function Product3({ title, image }) {
       </div>
       <img src={image} alt="" />
 
-      <button
-        // type="button"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href =
-            "https://vishalmishra2810.github.io/Vishal-Portfolio/sorting.html";
-        }}
+      {/* <button
+      // type="button"
       >
         {" "}
         Click To View
-      </button>
+      </button> */}
     </div>
   );
 }

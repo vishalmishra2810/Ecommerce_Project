@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Home";
 import Checkout from "./Containers/Checkout/Checkout";
 import Payment from "./Containers/Payment/Payment";
+import DsSection from "./Components/Blogs/DataStructure/DsSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Containers/Login/Login";
 import { auth } from "./firebase";
@@ -48,6 +49,7 @@ function App() {
               </>
             }
           ></Route>
+          <Route path="/DsSection" element={<DsSection />}></Route>
           <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="/payment" element={<Payment />}></Route>
           <Route path="/login" element={<Login />}></Route>

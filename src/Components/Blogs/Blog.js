@@ -1,51 +1,43 @@
 import React from "react";
-import java from "../../images/java-book.png";
-import CTCIB from "../../images/ctci.png";
 import "../../Home.css";
 import "./Blog.css";
 import Product3 from "../../Containers/Product3/Product3";
+import ds from "../../images/Articles/DS.png";
+import algorithm from "../../images/Articles/algorithm.png";
+import DBMS from "../../images/Articles/DBMS.png";
+import Aptitude from "../../images/Articles/Aptitude.png";
+import Interview from "../../images/Articles/Interview.png";
+import { Link } from "react-router-dom";
 
-function Books() {
+function Blog() {
   return (
     <div className="blog">
       <div className="home__container">
         <div className="blog__row">
-          <Product3
-            id="90829332"
-            title="Samsung 49' Curved LED Gaming Monitor"
-            price={1094.98}
-            rating={3}
-            image={CTCIB}
-          />
-          <Product3
-            id="90829332"
-            title="Samsung 49' Curved LED Gaming Monitor"
-            price={1094.98}
-            rating={3}
-            image={java}
-          />
-          <Product3
-            id="90829332"
-            title="Samsung 49' Curved LED Gaming Monitor"
-            price={1094.98}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-          />
-          <Product3
-            id="90829332"
-            title="Samsung 49' Curved LED Gaming Monitor"
-            price={1094.98}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-          />
-          <Product3
-            title="Samsung 49' Curved LED Gaming Monitor"
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-          />
+          <Link to="/DsSection">
+            {" "}
+            <Product3 title="Data Structure" image={ds} />
+          </Link>
+          <Link to="/Algorithms_Section">
+            {" "}
+            <Product3 title="Algorithms" image={algorithm} />{" "}
+          </Link>
+          <Link to="/Interview_Section">
+            {" "}
+            <Product3 title="Interview Preperation" image={Interview} />{" "}
+          </Link>
+          <Link to="/Cs_Subjects_Section">
+            {" "}
+            <Product3 title="Core Cs Subjects" image={DBMS} />{" "}
+          </Link>
+          <Link to="/Aptitude_Section">
+            {" "}
+            <Product3 title="Aptitude" image={Aptitude} />{" "}
+          </Link>
         </div>
       </div>
     </div>
   );
 }
 
-export default Books;
+export default Blog;
