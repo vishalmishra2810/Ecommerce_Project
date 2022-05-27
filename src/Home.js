@@ -3,8 +3,9 @@ import "./Home.css";
 import banner from "./images/home_banner.jpg";
 import BooksRecommendation from "./Components/BooksRecommendation/Books";
 import Visualization from "./Components/Visualizer/Visualization";
+import Motivation from "./Components/Motivation/Motivation";
+import Footer from "./Components/Footers/Footer";
 import Blog from "./Components/Blogs/Blog";
-// import Footer from "./Components/Footers/Footer";
 
 function Home() {
   return (
@@ -12,11 +13,13 @@ function Home() {
       <div className="home__container">
         <img className="home__image" src={banner} alt="" />
 
+        <h1>Books Recommendation</h1>
         <BooksRecommendation />
         <Visualization />
+        <Motivation />
         <Blog />
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
