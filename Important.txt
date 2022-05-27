@@ -1,0 +1,6 @@
+carousel:- https://www.youtube.com/watch?v=eBKcGAhkZUI&t=116s
+sidebar:- https://www.youtube.com/watch?v=CXa0f4-dWi4
+
+React
+firebase
+
