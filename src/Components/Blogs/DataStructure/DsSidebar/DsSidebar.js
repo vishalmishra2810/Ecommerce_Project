@@ -1,11 +1,11 @@
 import "./DsSidebar.css";
-import Sidebar from "./Components/Sidebar";
+import SidebarLeft from "./Components/SidebarLeft";
 // import React from "react";
 
 function DsSidebar() {
   return (
     <div className="DsSidebar">
-      <Sidebar />
+      <SidebarLeft />
     </div>
   );
 }

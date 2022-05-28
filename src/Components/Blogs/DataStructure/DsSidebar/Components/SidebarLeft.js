@@ -2,10 +2,10 @@ import React from "react";
 import "../DsSidebar.css";
 import { SidebarData } from "./SidebarData";
 
-function Sidebar() {
+function SidebarLeft() {
   return (
-    <div className="Sidebar">
-      <ul className="SidebarList">
+    <div className="SidebarLeft">
+      <ul className="SidebarLeftList">
         {SidebarData.map((val, key) => {
           return (
             <li
@@ -25,4 +25,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default SidebarLeft;

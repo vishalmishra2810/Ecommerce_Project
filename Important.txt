@@ -4,3 +4,7 @@ sidebar:- https://www.youtube.com/watch?v=CXa0f4-dWi4
 React
 firebase
 
+
+for Resume
+install react feather
+react-to-print

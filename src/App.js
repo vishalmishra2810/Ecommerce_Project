@@ -14,6 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Containers/Login/Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import ResumeBuilder from "./Components/ResumeBuilder/ResumeBuilder";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -67,6 +68,7 @@ function App() {
             path="/Interview_Section"
             element={<Interview_Section />}
           ></Route>
+          <Route path="/Resume_Builder" element={<ResumeBuilder />}></Route>
           <Route path="/Helpful_Topics" element={<Helpful_Topics />}></Route>
           <Route path="/DsSection" element={<DsSection />}></Route>
           <Route path="/checkout" element={<Checkout />}></Route>

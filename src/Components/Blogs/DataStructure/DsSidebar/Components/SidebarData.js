@@ -1,46 +1,55 @@
 import React from "react";
 import HomeIcon from "@material-ui/icons/Home";
-import MailIcon from "@material-ui/icons/Mail";
+// import MailIcon from "@material-ui/icons/Mail";
+import {
+  Book,
+  CompassCalibration,
+  Contacts,
+  Help,
+  Note,
+  Subject,
+  Visibility,
+} from "@material-ui/icons";
 
 export const SidebarData = [
   {
     title: "Home",
     icon: <HomeIcon />,
-    link: "/home",
+    link: "/",
   },
   {
-    title: "Mailbox",
-    icon: <MailIcon />,
-    link: "/mailbox",
+    title: "Book Recommendation",
+    icon: <Book />,
+    link: "/BooksRecommendation",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "Visualisations",
+    icon: <Visibility />,
+    link: "/Visualisations",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "CS Subjects",
+    icon: <Subject />,
+    link: "/Cs_Section",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "Resume Builder",
+    icon: <Note />,
+    link: "/Resume_Builder",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "Online Compiler",
+    icon: <CompassCalibration />,
+    link: "/Compiler",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "Any Suggestion",
+    icon: <Help />,
+    link: "/Suggestion",
   },
   {
-    title: "Home",
-    icon: <HomeIcon />,
-    link: "/home",
+    title: "Contact Us",
+    icon: <Contacts />,
+    link: "/Contact",
   },
 ];
