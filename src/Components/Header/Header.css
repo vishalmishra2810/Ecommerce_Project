@@ -1,5 +1,5 @@
 .header {
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
   background-color: #6495ED;
@@ -36,11 +36,11 @@
 }
 
 .header__optionLineOne {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .header__optionLineTwo {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 800;
 }
 

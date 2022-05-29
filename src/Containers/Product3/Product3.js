@@ -1,8 +1,7 @@
 import React from "react";
 import "./Product3.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function Product3({ title, image, button }) {
+function Product3({ title, image }) {
   return (
     <div className="product3">
       <div className="product3__info">
