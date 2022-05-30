@@ -5,7 +5,11 @@
   margin-right: auto;
   max-width: 1500px;
 }
-
+.books_recommendation{
+  height: 70px;
+  margin-top: 250px;
+  margin-left: 600px;
+}
 .home__row {
   display: flex;
   z-index: 1;

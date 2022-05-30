@@ -2,14 +2,15 @@ import React from "react";
 import DsSidebar from "./DsSidebar/DsSidebar";
 import Header from "../../../Components/Header/Header";
 import "./DsSection.css";
-import Main_DsSS1 from "./Ds_SubSection1/Main_DsSS1";
+import Ds_SubSection from "./Ds_SubSection/Ds_SubSection";
 
 function DsSection() {
   return (
     <div>
       {" "}
       <Header />
-      <Main_DsSS1 />
+      <h1 className="topics">Learn Programming Language</h1>
+      <Ds_SubSection />
       <DsSidebar />
     </div>
   );

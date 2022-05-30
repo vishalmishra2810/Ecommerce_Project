@@ -3,7 +3,7 @@ import LearnJava from "./LearnJava";
 import LearnCpp from "./LearnCpp";
 import LearnPython from "./LearnPython";
 
-function Main_DsSS1() {
+function Ds_SubSection1() {
   return (
     <div>
       Learn Programming Languages <LearnJava />
@@ -13,4 +13,4 @@ function Main_DsSS1() {
   );
 }
 
-export default Main_DsSS1;
+export default Ds_SubSection1;

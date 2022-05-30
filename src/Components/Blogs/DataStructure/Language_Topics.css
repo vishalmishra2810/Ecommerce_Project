@@ -1,0 +1,42 @@
+.Language_Topics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 30px;
+    width: 60%;
+    max-height: 300px;
+    min-width: 200px;
+    background-color: gray;
+    z-index: 1;
+  }
+  
+  .Language_Topics__rating {
+    display: flex;
+  }
+  
+  .Language_Topics > img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .Language_Topics > button {
+    background: #6495ED;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #6495ED #6495ED #6495ED;
+    color: #ffffff;
+  }
+  
+  .Language_Topics__price {
+    margin-top: 5px;
+  }
+  
+  .Language_Topics__info {
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  

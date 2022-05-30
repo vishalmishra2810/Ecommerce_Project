@@ -10,11 +10,14 @@ import Aptitude_Section from "./Components/Blogs/Aptitude/Aptitude_Section";
 import Cs_Section from "./Components/Blogs/CsSubjects/Cs_Section";
 import Interview_Section from "./Components/Blogs/Interview/Interview_Section";
 import Helpful_Topics from "./Components/Helpful_Topics/Helpful_Topics";
+import LearnCpp from "./Components/Blogs/DataStructure/Languages/Cpp/LearnCpp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Containers/Login/Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import ResumeBuilder from "./Components/ResumeBuilder/ResumeBuilder";
+import LearnJava from "./Components/Blogs/DataStructure/Languages/Java/LearnJava";
+import LearnPython from "./Components/Blogs/DataStructure/Languages/Python/LearnPython";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -68,6 +71,9 @@ function App() {
             path="/Interview_Section"
             element={<Interview_Section />}
           ></Route>
+          <Route path="/learnpython" element={<LearnPython />}></Route>
+          <Route path="/learnjava" element={<LearnJava />}></Route>
+          <Route path="/learncpp" element={<LearnCpp />}></Route>
           <Route path="/Resume_Builder" element={<ResumeBuilder />}></Route>
           <Route path="/Helpful_Topics" element={<Helpful_Topics />}></Route>
           <Route path="/DsSection" element={<DsSection />}></Route>

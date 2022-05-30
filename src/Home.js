@@ -13,7 +13,7 @@ function Home() {
       <div className="home__container">
         <img className="home__image" src={banner} alt="" />
 
-        <h1>Books Recommendation</h1>
+        <h1 className="books_recommendation">Books Recommendation</h1>
         <BooksRecommendation />
         <Visualization />
         <Motivation />
