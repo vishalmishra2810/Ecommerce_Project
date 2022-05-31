@@ -7,7 +7,14 @@
 }
 .books_recommendation{
   height: 70px;
-  margin-top: 250px;
+  margin-top: 200px;
+  margin-bottom: -80px;
+  margin-left: 600px;
+}
+.blog_topics{
+  height: 70px;
+  margin-top: -20px;
+  margin-bottom: -80px;
   margin-left: 600px;
 }
 .home__row {
@@ -20,6 +27,7 @@
 .home__image {
   width: 100%;
   z-index: -1;
+  margin-top: -100px;
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }

@@ -1,25 +1,24 @@
-.Language_Topics {
+.JavaContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     margin: 10px;
-    margin-top: -90px;
     padding: 30px;
-    width: 70%;
+    width: 60%;
     max-height: 300px;
-    min-width: 175px;
+    min-width: 300px;
     background-color: #6495ED;
     z-index: 1;
   }
 
-  .Language_Topics__title {
+  .JavaContainer__title {
     margin-top: 43px;
     font-size: 20px;
     color: aliceblue;
   }
   
-  .Language_Topics__info {
+  .JavaContainer__info {
     height: 100px;
     margin-bottom: 15px;
   }

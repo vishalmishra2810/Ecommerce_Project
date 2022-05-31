@@ -17,6 +17,7 @@ function Home() {
         <BooksRecommendation />
         <Visualization />
         <Motivation />
+        <h1 className="blog_topics">Learning Squads</h1>
         <Blog />
 
         {/* <Footer /> */}

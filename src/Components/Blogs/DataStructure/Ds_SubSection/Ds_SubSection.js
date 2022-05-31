@@ -9,17 +9,21 @@ function Ds_SubSection() {
     <div className="blog">
       <div className="home__container">
         <div className="blog__row">
-          <Link to="/learnjava">
+          <Link to="/LearnJava">
             {" "}
             <Language_Topics title="Java" />
           </Link>
-          <Link to="/learncpp">
+          <Link to="/LearnCpp">
             {" "}
             <Language_Topics title="C++" />{" "}
           </Link>
-          <Link to="/learnpython">
+          <Link to="/LearnPython">
             {" "}
             <Language_Topics title="Python" />{" "}
+          </Link>
+          <Link to="/LearnJavascript">
+            {" "}
+            <Language_Topics title="JavaScript" />{" "}
           </Link>
         </div>
       </div>

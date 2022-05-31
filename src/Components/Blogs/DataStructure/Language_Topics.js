@@ -1,20 +1,12 @@
 import React from "react";
 import "./Language_Topics.css";
 
-function Language_Topics({ title, image }) {
+function Language_Topics({ title }) {
   return (
     <div className="Language_Topics">
       <div className="Language_Topics__info">
-        <p>{title}</p>
+        <p className="Language_Topics__title">{title}</p>
       </div>
-      <img src={image} alt="" />
-
-      {/* <button
-      // type="button"
-      >
-        {" "}
-        Click To View
-      </button> */}
     </div>
   );
 }
