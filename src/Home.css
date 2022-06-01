@@ -11,6 +11,29 @@
   margin-bottom: -80px;
   margin-left: 600px;
 }
+.resume_button{
+  background: #6495ED;
+  border: 1px solid;
+  margin-left: 700px;
+  font-size: large;
+  padding: 20px;
+  margin-top: -50px;
+  margin-bottom: 60px;
+  border-color: #6495ED #6495ED #6495ED;
+  color: #ffffff;
+}
+.visualization_topics{
+  height: 90px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 600px;
+}
+.Resume{
+  height: 90px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 600px;
+}
 .blog_topics{
   height: 70px;
   margin-top: -20px;

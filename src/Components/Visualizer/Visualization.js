@@ -7,8 +7,19 @@ import "./Visualization.css";
 const Visualization = () => {
   return (
     <div className="visualize__row">
-      <Product2 title="Sorting Visualizer" image={sorting} />
-      <Product2 title="Path Finding Visualizer" image={pathfinding} />
+      <a
+        href="https://vishalmishra2810.github.io/Vishal-Portfolio/sorting.html"
+        target="_blank"
+      >
+        {" "}
+        <Product2 title="Sorting Visualizer" image={sorting} />
+      </a>
+      <a
+        href="https://vishalmishra2810.github.io/Vishal-Portfolio/Path-Finding-Visualizer-master/index.html"
+        target="_blank"
+      >
+        <Product2 title="Path Finding Visualizer" image={pathfinding} />
+      </a>
     </div>
   );
 };

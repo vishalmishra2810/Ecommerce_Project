@@ -5,6 +5,7 @@ import Home from "./Home";
 import Checkout from "./Containers/Checkout/Checkout";
 import Payment from "./Containers/Payment/Payment";
 import DsSection from "./Components/Blogs/DataStructure/DsSection";
+
 import Algorithm_Section from "./Components/Blogs/Algorithm/Algorithm_Section";
 import Aptitude_Section from "./Components/Blogs/Aptitude/Aptitude_Section";
 import Cs_Section from "./Components/Blogs/CsSubjects/Cs_Section";
@@ -71,6 +72,7 @@ function App() {
             path="/Interview_Section"
             element={<Interview_Section />}
           ></Route>
+
           <Route path="/learnpython" element={<LearnPython />}></Route>
           <Route path="/learnjava" element={<LearnJava />}></Route>
           <Route path="/learncpp" element={<LearnCpp />}></Route>

@@ -9,6 +9,6 @@
   .visualize__row {
     display: flex;
     z-index: 1;
-    margin-left: 1px;
+    margin-left: 250px;
     margin-right: 5px;
   }

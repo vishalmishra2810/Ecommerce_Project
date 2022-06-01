@@ -10,12 +10,7 @@ function Product2({ title, image }) {
       <img src={image} alt="" />
 
       <button
-        // type="button"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href =
-            "https://vishalmishra2810.github.io/Vishal-Portfolio/sorting.html";
-        }}
+      // type="button"
       >
         {" "}
         Click To Visualize
