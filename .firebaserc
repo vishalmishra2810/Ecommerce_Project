@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "challenge123-825db"
-  }
+    "default": "challenge123-825db",
+    "push": "challenge123-825db"
+  },
+  "targets": {}
 }

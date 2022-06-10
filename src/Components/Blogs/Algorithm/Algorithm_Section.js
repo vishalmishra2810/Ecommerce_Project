@@ -3,6 +3,7 @@ import DsSidebar from "../../../Components/Blogs/DataStructure/DsSidebar/DsSideb
 import Header from "../../../Components/Header/Header";
 import "./Algorithm_Section.css";
 import Algorithm_Subsection from "./Algorithm_Subsection/Algorithm_Subsection";
+import Footer from "../../../Components/Footer/Footer";
 
 function Algorithm_Section() {
   return (
@@ -12,6 +13,7 @@ function Algorithm_Section() {
       <h1 className="topics">Algorithms </h1>
       <Algorithm_Subsection />
       <DsSidebar />
+      <Footer />
     </div>
   );
 }

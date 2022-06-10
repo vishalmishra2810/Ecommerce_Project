@@ -1,4 +1,4 @@
-.Footer{
+.footer{
     padding:30px;
     display: block;
     position: relative;
@@ -8,16 +8,16 @@
     width:100%;
     letter-spacing: 1px;
 }
-.Footer img{
+.footer img{
     height:25px;
     width:auto;
 }
-.Footer a,.Footer a:link,.Footer a:visited{
+.footer a,.footer a:link,.footer a:visited{
     float: left;
     text-decoration: none;
     color: #727171;
 }
-.Footer a:hover,.Footer a:active{
+.footer a:hover,.footer a:active{
     color:#fff;
 }
 .storage{
@@ -32,18 +32,18 @@
 .storage2  img{
     margin:0 10px;
 }
-.Footer-text{
+.footer-text{
     margin-top:30px;
     color:#727171;;
     letter-spacing: 1px;
     word-spacing: 3px;
     line-height: 165%;
 }
-.Footer-text:hover{
+.footer-text:hover{
     color:#fff;
 }
 @media screen and (min-width:600px){
-    .Footer{
+    .footer{
         height:35vh;
     }
 }
