@@ -9,19 +9,19 @@ function Ds_SubSection() {
     <div className="blog">
       <div className="home__container">
         <div className="blog__row">
-          <Link to="/LearnJava">
+          <Link style={{ textDecoration: "none" }} to="/LearnJava">
             {" "}
             <Language_Topics title="Java" />
           </Link>
-          <Link to="/LearnCpp">
+          <Link style={{ textDecoration: "none" }} to="/LearnCpp">
             {" "}
             <Language_Topics title="C++" />{" "}
           </Link>
-          <Link to="/LearnPython">
+          <Link style={{ textDecoration: "none" }} to="/LearnPython">
             {" "}
             <Language_Topics title="Python" />{" "}
           </Link>
-          <Link to="/LearnJavascript">
+          <Link style={{ textDecoration: "none" }} to="/LearnJavascript">
             {" "}
             <Language_Topics title="JavaScript" />{" "}
           </Link>

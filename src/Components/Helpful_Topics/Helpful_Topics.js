@@ -2,6 +2,7 @@ import React from "react";
 import "./Helpful_Topics.css";
 import { Button } from "@material-ui/core";
 import SearchResult from "./SearchResult";
+import Header from "../../Components/Header/Header";
 
 // Images
 import faang from "../../images/helpful_topics_images/faang.png";
@@ -9,6 +10,7 @@ import faang from "../../images/helpful_topics_images/faang.png";
 function Helpful_Topics() {
   return (
     <div className="searchPage">
+      <Header />
       <div className="searchPage__info">
         {/* <p>62 stays · 26 august to 30 august · 2 guest</p> */}
         <h1>
@@ -22,27 +24,29 @@ function Helpful_Topics() {
         <Button variant="outlined">Best Youtube Channel</Button>
       </div>
       <a
+        style={{ textDecoration: "none" }}
         href="https://e-gmat.com/blogs/top-tech-companies-best-paying-jobs-in-technology/"
         target="_blank"
       >
         <SearchResult
           img={faang}
-          location="Private room in center of London"
+          // location="Private room in center of London"
           title="Top Tech Companies with the Best Paying Jobs in 2020"
           description="In this article, we analyze the top tech companies to work for in 2020, based on various parameters such as the number of MBA graduates hired, compensation, and job satisfaction. The article also covers the skills required to pursue a career in Technology."
         />
       </a>
-
-      <SearchResult
-        img="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
-        location="Private room in center of London"
-        title="Independant luxury studio apartment"
-        description="2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen"
-        star={4.3}
-        price="£40 / night"
-        total="£157 total"
-      />
-
+      <a
+        style={{ textDecoration: "none" }}
+        href="https://www.forbes.com/sites/jenamcgregor/2022/06/09/microsoft-announces-it-will-include-pay-ranges-in-all-us-job-postings-experts-predict-it-will-be-the-first-of-many/?sh=599478115c72"
+        target="_blank"
+      >
+        <SearchResult
+          img="https://imageio.forbes.com/specials-images/imageserve/62a22539ebc9184778876078/A-Microsoft-Corp--Store-As-Company-Exceeds-Sales--Profit-Estimates-On-Cloud-Gains/1960x0.jpg?format=jpg&width=960"
+          // location="Private room in center of London"
+          title="Microsoft Announces It Will Include Pay Ranges In All U.S. Job Postings. Experts Predict It Will Be The First Of Many"
+          description="In a blog post, Microsoft said it would disclose salary ranges in all internal and external U.S. job postings no later than January 2023. That date is when Washington state, where Microsoft’s headquarters are located, will start requiring employers with at least 15 employees to disclose salary ranges for each position. The law covers Washington state; Microsoft’s initiative will apply “across the U.S.,” it said."
+        />
+      </a>
       <SearchResult
         img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
         location="Private room in center of London"
