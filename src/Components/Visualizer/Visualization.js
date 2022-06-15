@@ -8,6 +8,7 @@ const Visualization = () => {
   return (
     <div className="visualize__row">
       <a
+        style={{ textDecoration: "none" }}
         href="https://vishalmishra2810.github.io/Vishal-Portfolio/sorting.html"
         target="_blank"
       >
@@ -15,6 +16,7 @@ const Visualization = () => {
         <Product2 title="Sorting Visualizer" image={sorting} />
       </a>
       <a
+        style={{ textDecoration: "none" }}
         href="https://vishalmishra2810.github.io/Vishal-Portfolio/Path-Finding-Visualizer-master/index.html"
         target="_blank"
       >

@@ -14,23 +14,23 @@ function Blog() {
     <div className="blog">
       <div className="home__container">
         <div className="blog__row">
-          <Link to="/DsSection">
+          <Link style={{ textDecoration: "none" }} to="/DsSection">
             {" "}
             <Product3 title="Data Structure" image={ds} />
           </Link>
-          <Link to="/Algorithm_Section">
+          <Link style={{ textDecoration: "none" }} to="/Algorithm_Section">
             {" "}
             <Product3 title="Algorithms" image={algorithm} />{" "}
           </Link>
-          <Link to="/Interview_Section">
+          <Link style={{ textDecoration: "none" }} to="/Interview_Section">
             {" "}
             <Product3 title="Interview Preperation" image={Interview} />{" "}
           </Link>
-          <Link to="/Cs_Section">
+          <Link style={{ textDecoration: "none" }} to="/Cs_Section">
             {" "}
             <Product3 title="Core Cs Subjects" image={DBMS} />{" "}
           </Link>
-          <Link to="/Aptitude_Section">
+          <Link style={{ textDecoration: "none" }} to="/Aptitude_Section">
             {" "}
             <Product3 title="Aptitude" image={Aptitude} />{" "}
           </Link>

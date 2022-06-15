@@ -1,10 +1,10 @@
 import React from "react";
 import "../../../../Home.css";
-import "../Algorithm_Subsection/Algorithm_Subsection.css";
+// import "../Interview_subsection/Interview_subsection.css";
 import Language_Topics from "../../DataStructure/Language_Topics";
 import { Link } from "react-router-dom";
 
-function Algorithm_SubSection() {
+function Interview_subsection() {
   return (
     <div className="blog">
       <div className="home__container">
@@ -31,4 +31,4 @@ function Algorithm_SubSection() {
   );
 }
 
-export default Algorithm_SubSection;
+export default Interview_subsection;

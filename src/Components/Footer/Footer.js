@@ -10,8 +10,8 @@ function Footer() {
   return (
     <div className="footer">
       <div className="storage">
-        <a href="/">About Us</a>
-        <a href="/">Blog</a>
+        <a href="/about_us">About Us</a>
+        <a href="/helpful_topics">Blog</a>
         <a href="/">Pages</a>
         <a href="/">Chat with us</a>
       </div>

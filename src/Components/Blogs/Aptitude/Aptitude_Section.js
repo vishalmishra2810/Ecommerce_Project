@@ -4,39 +4,69 @@ import "./Aptitude_Section.css";
 function Aptitude_Section() {
   const questions = [
     {
-      questionText: "What is the capital of France?",
+      questionText: "Who is the father of C language?",
       answerOptions: [
-        { answerText: "New York", isCorrect: false },
-        { answerText: "London", isCorrect: false },
-        { answerText: "Paris", isCorrect: true },
-        { answerText: "Dublin", isCorrect: false },
+        { answerText: "Steve Jobs", isCorrect: false },
+        { answerText: "James Gosling", isCorrect: false },
+        { answerText: "Dennis Ritchie", isCorrect: true },
+        { answerText: "Rasmus Lerdorf", isCorrect: false },
       ],
     },
     {
-      questionText: "Who is CEO of Tesla?",
+      questionText: "All keywords in C are in ___",
       answerOptions: [
-        { answerText: "Jeff Bezos", isCorrect: false },
-        { answerText: "Elon Musk", isCorrect: true },
-        { answerText: "Bill Gates", isCorrect: false },
-        { answerText: "Tony Stark", isCorrect: false },
+        { answerText: "UpperCase letters", isCorrect: false },
+        { answerText: "LowerCase letters", isCorrect: true },
+        { answerText: "CamelCase letters", isCorrect: false },
+        { answerText: "None of the mentioned", isCorrect: false },
       ],
     },
     {
-      questionText: "The iPhone was created by which company?",
+      questionText: "Which of the following is true for variable names in C?",
       answerOptions: [
-        { answerText: "Apple", isCorrect: true },
-        { answerText: "Intel", isCorrect: false },
-        { answerText: "Amazon", isCorrect: false },
-        { answerText: "Microsoft", isCorrect: false },
+        {
+          answerText: "Variable names cannot start with a digit",
+          isCorrect: true,
+        },
+        {
+          answerText:
+            "They can contain alphanumeric characters as well as special characters",
+          isCorrect: false,
+        },
+        {
+          answerText:
+            "It is not an error to declare a variable to be one of the keywords(like goto, static)",
+          isCorrect: false,
+        },
+        { answerText: "Variable can be of any length", isCorrect: false },
       ],
     },
     {
-      questionText: "How many Harry Potter books are there?",
+      questionText: "The C-preprocessors are specified with _________ symbol.",
       answerOptions: [
-        { answerText: "1", isCorrect: false },
-        { answerText: "4", isCorrect: false },
-        { answerText: "6", isCorrect: false },
-        { answerText: "7", isCorrect: true },
+        { answerText: "#", isCorrect: true },
+        { answerText: "$", isCorrect: false },
+        { answerText: "&", isCorrect: false },
+        { answerText: " ", isCorrect: false },
+      ],
+    },
+    {
+      questionText:
+        "Which of the following is not possible statically in C language?",
+      answerOptions: [
+        { answerText: "Rectangular Array", isCorrect: false },
+        { answerText: "Jagged Array", isCorrect: true },
+        { answerText: "Multidimensional Array", isCorrect: false },
+        { answerText: "Cuboidal Array", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "All keywords in C are in ___",
+      answerOptions: [
+        { answerText: "UpperCase letters", isCorrect: false },
+        { answerText: "LowerCase letters", isCorrect: true },
+        { answerText: "CamelCase letters", isCorrect: false },
+        { answerText: "None of the mentioned", isCorrect: false },
       ],
     },
   ];

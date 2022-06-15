@@ -26,30 +26,31 @@ function Header() {
       </div>
 
       <div className="header__nav">
-        <Link to="/Resume_Builder">
+        <Link style={{ textDecoration: "none" }} to="/Resume_Builder">
           <div className="header__option">
             <span className="header__optionLineOne">Resume</span>
             <span className="header__optionLineTwo">Creator</span>
           </div>
         </Link>
-        <div className="header__option">
-          <span className="header__optionLineOne">Interview</span>
-          <span className="header__optionLineTwo">Guider</span>
-        </div>
-
+        <Link style={{ textDecoration: "none" }} to="/Interview_Section">
+          <div className="header__option">
+            <span className="header__optionLineOne">Interview</span>
+            <span className="header__optionLineTwo">Guider</span>
+          </div>
+        </Link>
         <div className="header__option">
           <span className="header__optionLineOne">Chat</span>
           <span className="header__optionLineTwo">With us</span>
         </div>
 
-        <Link to="/helpful_topics">
+        <Link style={{ textDecoration: "none" }} to="/helpful_topics">
           <div className="header__option">
             <span className="header__optionLineOne">Helpful</span>
             <span className="header__optionLineTwo">Topics</span>
           </div>
         </Link>
 
-        <Link to="/checkout">
+        <Link style={{ textDecoration: "none" }} to="/checkout">
           <div className="header__optionBasket">
             <InterestsIcon />
             <span
@@ -60,7 +61,7 @@ function Header() {
             </span>
           </div>
         </Link>
-        <Link to={!user && "/login"}>
+        <Link style={{ textDecoration: "none" }} to={!user && "/login"}>
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">
               Hello {!user ? "Guest" : user.email}
