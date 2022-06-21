@@ -38,11 +38,12 @@ function Header() {
             <span className="header__optionLineTwo">Guider</span>
           </div>
         </Link>
-        <div className="header__option">
-          <span className="header__optionLineOne">Chat</span>
-          <span className="header__optionLineTwo">With us</span>
-        </div>
-
+        <Link style={{ textDecoration: "none" }} to="/Contact">
+          <div className="header__option">
+            <span className="header__optionLineOne">Chat</span>
+            <span className="header__optionLineTwo">With us</span>
+          </div>
+        </Link>
         <Link style={{ textDecoration: "none" }} to="/helpful_topics">
           <div className="header__option">
             <span className="header__optionLineOne">Helpful</span>

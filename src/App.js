@@ -19,6 +19,7 @@ import { useStateValue } from "./StateProvider";
 import ResumeBuilder from "./Components/ResumeBuilder/ResumeBuilder";
 import LearnJava from "./Components/Blogs/DataStructure/Languages/Java/LearnJava";
 import LearnPython from "./Components/Blogs/DataStructure/Languages/Python/LearnPython";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -76,6 +77,7 @@ function App() {
             path="/BooksRecommendation"
             element={<BooksRecommendation />}
           ></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/learnpython" element={<LearnPython />}></Route>
           <Route path="/learnjava" element={<LearnJava />}></Route>
           <Route path="/learncpp" element={<LearnCpp />}></Route>

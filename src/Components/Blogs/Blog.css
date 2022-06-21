@@ -12,3 +12,8 @@
     margin-left: 1px;
     margin-right: 5px;
   }
+
+  .blog__section {
+    display: flex;
+    padding: 30px;
+  }
